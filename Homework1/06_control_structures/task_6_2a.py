@@ -37,7 +37,7 @@ else:
    if int(octs[0]) >= 1 and int(octs[0]) <=223:
       print("unicast")
    elif int(octs[0]) >= 224 and int(octs[0]) <= 239:
-         print("multicast")   
+      print("multicast")   
    elif ip_address == "255.255.255.255":
       print("local broadcast")
    elif ip_address == "0.0.0.0":
